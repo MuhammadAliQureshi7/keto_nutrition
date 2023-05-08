@@ -1,11 +1,10 @@
-<?php foreach($blog as $blog):?>
 <div class="banner banner-2">
     <div class="overlay">
         <div class="container">
             <div class="row">
                 <div class="col-xl-12">
-                    <h2><?php echo $blog->title;?></h2>
-                    <p><?php echo $blog->summary;?></p>
+                    <h2>Privacy Policy</h2>
+                    <p>Thank you for considering a privacy policy for your dietician website. A privacy policy is a statement that informs your website visitors about how you collect, use, and protect their personal information. Here's a template you can use as a starting point for your dietician website's privacy policy:</p>
                 </div>
             </div>
         </div>
@@ -31,4 +30,3 @@
         </div>
     </div>
 </div>
-<?php endforeach;?>
