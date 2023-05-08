@@ -36,11 +36,7 @@
                     </div>
                     <div class="nav-links">
                         <ul>
-                            <li><a href="<?php echo base_url(); ?>">Home</a></li>
-                            <li><a href="">About</a></li>
-                            <li><a href="">Query Form</a></li>
-                            <li><a href="#blog">Blog</a></li>
-                            <li><a href="">Contacts</a></li>
+                            <li><a href="<?php echo base_url(); ?>">Home</a></li>                            
                             <li><a href="<?php echo base_url('home/privacy_policy'); ?>">Privacy Policy</a></li>
                             <li><a href="<?php echo base_url('home/terms_condition'); ?>">Terms & Conditions</a></li>
                         </ul>
