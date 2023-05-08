@@ -58,4 +58,18 @@ class Home extends CI_Controller {
         $this->load->view('viewblog',$data);
         $this->load->view('footer');
     }
+    public function privacy_policy(){
+        $data['user_details'] = $this->user_model->getuserdetails();
+        $data['title'] = "Privacy Policy";
+        $this->load->view('header',$data);
+        $this->load->view('privacy_policy',$data);
+        $this->load->view('footer');
+    }
+    public function terms_condition(){
+        $data['user_details'] = $this->user_model->getuserdetails();
+        $data['title'] = "Terms & Conditions";
+        $this->load->view('header',$data);
+        $this->load->view('terms_condition',$data);
+        $this->load->view('footer');
+    }
 }
