@@ -1313,6 +1313,9 @@ select.goog-te-combo {
 .VIpgJd-ZVi9od-ORHb-OEVmcd{
     display: none;
 }
+.section .policy{
+    padding: 50px 0;
+}
 @media (max-width: 1199px){
     .section .banner .text-wrap h1{
         font-size: 50px;
