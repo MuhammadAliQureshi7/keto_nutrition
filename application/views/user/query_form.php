@@ -122,7 +122,7 @@
                                         <div class="wrapper">
                                             <input type="radio" name="cooking_skills" value="Poor" id="cooking-1" checked>
                                             <input type="radio" name="cooking_skills" value="Average" id="cooking-2">
-                                            <input type="radiSo" name="cooking_skills" value="Excellent" id="cooking-3">
+                                            <input type="radio" name="cooking_skills" value="Excellent" id="cooking-3">
                                             <label for="cooking-1" class="option cooking-1">
                                                 <div class="dot"></div>
                                                 <span>Poor</span>
