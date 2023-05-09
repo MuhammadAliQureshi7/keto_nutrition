@@ -967,6 +967,9 @@ body{
 .section .payment .panel .body .bottom h6{
     font-size: 22px;
 }
+.section .payment .panel .body .bottom p{
+    margin-top: 20px;
+}
 .section .payment .panel .body form{
     border: 1px solid #ccc;
     border-radius: 5px;
