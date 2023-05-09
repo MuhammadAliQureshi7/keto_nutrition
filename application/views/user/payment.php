@@ -80,8 +80,8 @@
                                     <p><small>Duration :</small><?php echo $pack->days; ?> days</p>                                                                       
                                 </div>
                                 <div class="col-xl-12">
-                                    <small>Description :</small>
-                                    <p><?php echo $pack->description; ?></p>
+                                    
+                                    <p><small>Description :</small> <?php echo $pack->description; ?></p>
                                     <small>Meals :</small>
                                     <ul>                                        
                                         <?php  $meal = json_decode($pack->meals); foreach($meal as $m):?>
