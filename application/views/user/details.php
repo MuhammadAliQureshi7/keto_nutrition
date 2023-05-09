@@ -59,6 +59,7 @@
                             </tr>
                         </table>                      
                         <?php echo $q->response; ?>
+                        </div>
                     </div>
                 </div>
                 

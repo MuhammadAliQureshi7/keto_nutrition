@@ -56,9 +56,8 @@
         background: #343f56;
         padding: 10px;
         text-align: center;
-        position:absolute:
-        bottom: 0;
         color: #cecece;
+        width:100%;
     }
 </style>
 <body>
@@ -97,9 +96,11 @@
             </table>
                                             
             <?php echo $q->response; ?>
+            <div class="clearfix"></div>
         </div>
         <?php endforeach;?>
     </div>
+    
     <div class="footer">
         <address>© 2023 Keto & Diet - All Rights Reserved</address>
     </div>
